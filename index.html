@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Car Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://img.freepik.com/premium-vector/luxury-cars-logo_20448-238.jpg" type="image/x-icon">
+    
+</head>
+<body>
+
+<header class="hero">
+    <h1>Welcome to the Luxury Car Shop</h1>
+    <h2>Explore Our Collection</h2>
+</header>
+
+<nav>
+    <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Cars</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h3>Top Cars</h3>
+    <div class="car-list-container">
+        <ul class="car-list">
+            <li>Ferrari F8 Tributo</li>
+            <li>Audi A8L</li>
+            <li>Rolls-Royce Phantom</li>
+            <li>Bentley Continental GT</li>
+        </ul>
+    </div>
+</section>
+
+<div class="flex-container"></div>
+    <div class="centered-child">
+        <video controls width="300">
+            <source src="media/edit.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<section>
+    <h3>Car Gallery</h3>
+    <div class="gallery">
+        <div class="image-container">
+            <div class="overlay-container">
+                <img src="https://www.lego.com/en-my/kids/campaigns/cars/images/ferrari-real.png" alt="Ferrari F8 Tributo">
+                <div class="overlay-text">Ferrari F8 Tributo</div>
+            </div>
+            
+        </div>
+        <div class="image-container">
+            <div class="overlay-container">
+                <img src="https://images.carprices.com/pricebooks_data/usa/colorized/2023/Audi/View2/A8_L/55_TFSI/4NL5DA_5U.png" alt="Audi A8L">
+                <div class="overlay-text">Audi A8L</div>
+            </div>
+            
+        </div>
+        <div class="image-container">
+            <div class="overlay-container">
+                <img src="https://www.carsized.com/resources/rolls-royce/phantom/d/2012/sm_271112191_rolls-royce-phantom-2012-side-view_4x.png" alt="Rolls-Royce-Phantom">
+                <div class="overlay-text">Rolls-Royce Phantom</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <h3>Pricing</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Car Model</th>
+                <th>Price</th>
+                <th>Availability</th>
+                <th>Choose</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ferrari F8 Tributo</td>
+                <td>$276,550</td>
+                <td>In Stock</td>
+                <td>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="car-selection">
+                        <label for="car-selection">Select Car</label>
+                    </div>
+                    </td>
+            </tr>
+            <tr>
+                <td>Audi A8L</td>
+                <td>$123,695</td>
+                <td>Limited</td>
+                <td>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="car-selection">
+                        <label for="car-selection">Select Car</label>
+                    </div>
+                    </td>
+            </tr>
+            <tr>
+                <td>Porsche 911 Turbo S</td>
+                <td>$190,345</td>
+                <td>In Stock</td>
+                <td>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="car-selection">
+                        <label for="car-selection">Select Car</label>
+                    </div>
+                    </td>
+            </tr>
+            <tr>
+                <td>Rolls-Royce Phantom</td>
+                <td>$422,750</td>
+                <td>Limited</td>
+                <td>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="car-selection">
+                        <label for="car-selection">Select Car</label>
+                    </div>
+                    </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <h4>Follow Us</h4>
+    <a href="https://www.instagram.com">Instagram</a> |
+    <a href="https://www.facebook.com">Facebook</a>
+</footer>
+
+<section>
+    <h3>Contact Us</h3>
+    <div class="contact-form">
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
